@@ -9,7 +9,9 @@ body {
 }
 
 body {
-    .serif-font;
+    .sans-serif-font;
+    background-color: #f7f6f2;
+    color: #1f2a44;
 }
 
 hr {
@@ -37,13 +39,15 @@ h3,
 h4,
 h5,
 h6 {
-    .sans-serif-font;
+    .serif-font;
+    letter-spacing: 0.02em;
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #5e6678;
 }
 
 .bg-primary {
@@ -66,6 +70,29 @@ p {
     height: auto;
 }
 
+.publication-list {
+    .text-muted {
+        margin-bottom: 16px;
+        padding: 12px 16px;
+        border: 1px solid #e3e1d9;
+        border-left: 3px solid @theme-primary;
+        border-radius: 6px;
+        background-color: #fbfbf8;
+    }
+    .text-muted strong {
+        color: #1f2a44;
+        font-weight: 600;
+    }
+    .text-muted a {
+        color: @theme-primary;
+    }
+    .text-muted br {
+        content: "";
+        display: block;
+        margin: 6px 0;
+    }
+}
+
 section {
     padding: 100px 0;
 }
@@ -81,34 +108,34 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
-    border-color: fade(@gray-darker, 5%);
+    background-color: #fbfbf8;
+    border-color: #e3e1d9;
     .sans-serif-font;
     .transition-all;
     .navbar-header .navbar-brand {
         color: @theme-primary;
         .sans-serif-font;
         font-weight: 700;
-        text-transform: uppercase;
+        text-transform: none;
         &:hover,
         &:focus {
-            color: darken(@theme-primary, 10%);
+            color: #154b93;
         }
     }
     .navbar-header .navbar-toggle {
         font-weight: 700;
-        font-size: 12px;
+        font-size: 16px;
         color: @gray-darker;
-        text-transform: uppercase;
+        text-transform: none;
     }
     .nav {
         > li {
             > a,
             > a:focus {
-                text-transform: uppercase;
-                font-weight: 700;
-                font-size: 13px;
-                color: @gray-darker;
+                text-transform: none;
+                font-weight: 600;
+                font-size: 15px;
+                color: #1f2a44;
                 &:hover {
                     color: @theme-primary;
                 }
@@ -126,36 +153,36 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: transparent;
-        border-color: fade(white, 30%);
+        background-color: #fbfbf8;
+        border-color: #e3e1d9;
         .navbar-header .navbar-brand {
-            color: fade(white, 70%);
+            color: @theme-primary;
             &:hover,
             &:focus {
-                color: white;
+                color: #154b93;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
+            color: #1f2a44;
             &:hover {
-                color: white;
+                color: @theme-primary;
             }
         }
         &.affix {
-            background-color: white;
-            border-color: fade(@gray-darker, 5%);
+            background-color: #fbfbf8;
+            border-color: #e3e1d9;
             .navbar-header .navbar-brand {
                 color: @theme-primary;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken(@theme-primary, 10%);
+                    color: #154b93;
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: @gray-darker;
+                color: #1f2a44;
                 &:hover {
                     color: @theme-primary;
                 }
@@ -170,11 +197,11 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    .background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-color: #f7f6f2;
+    background-image: linear-gradient(180deg, #eef1f6, #f7f6f2);
     text-align: center;
-    color: white;
+    color: #1f2a44;
     .header-content {
         position: relative;
         text-align: center;
@@ -183,19 +210,19 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                text-transform: none;
                 margin-top: 0;
                 margin-bottom: 0;
-                font-size: 30px;
+                font-size: 36px;
             }
             hr {
                 margin: 30px auto;
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: #5e6678;
                 font-size: 16px;
-                margin-bottom: 50px;
+                margin-bottom: 24px;
             }
         }
     }
@@ -330,9 +357,9 @@ header {
 .btn {
     .sans-serif-font;
     border: none;
-    border-radius: 300px;
-    font-weight: 700;
-    text-transform: uppercase;
+    border-radius: 6px;
+    font-weight: 600;
+    text-transform: none;
 }
 
 .btn-xl {
