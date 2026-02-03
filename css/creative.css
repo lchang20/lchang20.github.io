@@ -255,9 +255,11 @@ span {
   margin: 0;
   padding-left: 18px;
   color: var(--muted);
+  font-size: 14px;
 }
 .experience-bullets li {
   margin-bottom: 8px;
+  font-size: inherit;
 }
 .experience-bullets li:last-child {
   margin-bottom: 0;

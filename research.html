@@ -94,383 +94,211 @@
             </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-lg-2 col-lg-offset-1 col-md-12">
-             <p class="text-grey">June 2021-Present, Bytedance Seed/AML</p>
+            <div class="experience-timeline">
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">June 2021–Present</p>
+                        <p class="experience-org">ByteDance Seed/AML</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">ML Training & Inference Acceleration, Automation, Architecture (AAA)</h3>
+                        <ul class="experience-bullets">
+                            <li>Accelerate GenAI training and inference with system- and compiler-level optimizations.</li>
+                            <li>Build production tools that automate performance tuning, scaling, and deployment.</li>
+                            <li>Design advanced architectures and runtimes for efficient large-model execution.</li>
+                        </ul>
+                        <ul class="experience-bullets">
+                            <li><strong>Triton-distributed: Distributed Triton for Parallel Systems</strong> (<a href="https://github.com/ByteDance-Seed/Triton-distributed">github</a>, <a href="https://arxiv.org/abs/2503.20313">arXiv</a>)<br>Enables ergonomic kernel programming across distributed systems.</li>
+                            <li><strong>ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</strong> (<a href="https://github.com/ByteDance-Seed/ShadowKV">github</a>, <a href="https://arxiv.org/abs/2410.21465">arXiv</a>)<br>Delivers high-throughput long-context LLM inference.</li>
+                            <li><strong>veScale: a PyTorch native LLM training framework</strong> (<a href="https://github.com/volcengine/veScale">github</a>)<br>Simplifies scaling single-device PyTorch models to distributed training.</li>
+                            <li><strong>Flux: a fast communication-overlapping library for tensor parallelism on GPUs</strong> (<a href="https://github.com/bytedance/flux">github</a>, <a href="https://arxiv.org/abs/2406.06858">arXiv</a>, <a href="https://arxiv.org/abs/2502.19811">arXiv</a>)<br>Overlaps communication and compute for tensor parallelism.</li>
+                            <li><strong>ByteIR: a model compilation solution for various hardware</strong> (<a href="https://github.com/bytedance/byteir">github</a>, <a href="https://byteir.ai">website</a>)<br>Compiler tooling for high-performance training and inference across CPUs, GPUs, and ASICs.</li>
+                            <li><strong>ByteMLPerf: an AI accelerator benchmarking tool</strong> (<a href="https://github.com/bytedance/ByteMLPerf">github</a>, <a href="https://bytemlperf.ai">website</a>)<br>Benchmarks AI accelerators with a production-oriented focus on usability and versatility.</li>
+                            <li>AI-for-code systems focused on productivity and reliability.</li>
+                            <li>Large-model performance estimation and prediction tooling.</li>
+                            <li>Distributed heterogeneous system prototypes for training and inference.</li>
+                            <li>A programming-language and compiler research initiative.</li>
+                            <li>Communication synthesis for scalable model parallelism.</li>
+                            <li>Computer-architecture studies for AI workloads.</li>
+                            <li>Acceleration projects spanning GPUs and NPUs.</li>
+                            <li>Additional systems and infrastructure projects.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">July 2017–June 2021</p>
+                        <p class="experience-org">Microsoft</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">High-performance AI Inference Engine</h3>
+                        <ul class="experience-bullets">
+                            <li>Built a compiler-based inference engine focused on high performance and portability.</li>
+                            <li><strong>NGEMM: Optimizing GEMM for Deep Learning via Compiler-based Techniques</strong> (<a href="https://arxiv.org/abs/1910.00178">arXiv</a>)<br>Wenlei Bao, Li-Wen Chang, Yang Chen, Ke Deng, Amit Agarwal, Emad Barsoum, and Abe Taha<br>arXiv.org, 2019</li>
+                            <li><strong>Accelerating Recurrent Neural Networks through Compiler Techniques and Quantization</strong><br>Li-Wen Chang, Yang Chen, Wenlei Bao, Amit Agarwal, Eldar Akchurin, Ke Deng and Emad Barsoum<br>Workshop on Systems for ML at NeurIPS, 2018</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2012–Fall 2017</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">TANGRAM – High-level Language for Heterogeneous Computing</h3>
+                        <ul class="experience-bullets">
+                            <li>Developed a high-level, performance-portable language for CPUs, GPUs, FPGAs, and clusters, targeting near–vendor-library performance from a single source.</li>
+                            <li><strong>Efficient Kernel Synthesis for Performance Portable Programming</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7783715">doi</a>)<br>Li-Wen Chang, Izzat El Hajj, Christopher Rodrigues, Juan Gómez-Luna and Wen-mei W. Hwu<br>MICRO, 2016</li>
+                            <li><strong>DySel: Lightweight Dynamic Selection for Kernel-based Data-Parallel Programming Model</strong> (<a href="http://dl.acm.org/citation.cfm?id=2872373">doi</a>)<br>Li-Wen Chang, Hee-Seok Kim and Wen-mei W. Hwu<br>ASPLOS, 2016</li>
+                            <li><strong>A Programming System for Future Proofing Performance Critical Libraries</strong> (<a href="http://dl.acm.org/citation.cfm?id=2851178">doi</a>)<br>Li-Wen Chang, Izzat El Hajj, Hee-Seok Kim, Juan Gómez-Luna, Abdul Dakkak and Wen-mei W. Hwu<br>PPoPP, 2016 (short paper)</li>
+                            <li><strong>Toward Application Performance Portability for Heterogeneous Computing</strong><br>Li-Wen Chang, Hee-Seok Kim, and Wen-mei Hwu<br>TECHCON, 2015</li>
+                            <li><strong>Transitioning HPC Software to Exascale Heterogeneous Computing</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7237412">doi</a>)<br>Wen-mei Hwu, Li-Wen Chang, Hee-Seok Kim, Abdul Dakkak, and Izzat El Hajj<br>Computational Electromagnetics International Workshop (CEM), 2015</li>
+                            <li><strong>Tangram: a High-level Language for Performance Portable Code Synthesis</strong> (<a href="http://impact.crhc.illinois.edu/shared/Papers/multiprog15-Tangram.pdf">pdf</a>)<br>Li-Wen Chang, Abdul Dakkak, Christopher I Rodrigues, and Wen-mei Hwu<br>Eighth Workshop on Programmability Issues for Heterogeneous Multicores (MULTIPROG), 2015</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2015–Fall 2017</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Heterogeneous Benchmark Suite and Characteristics Study</h3>
+                        <ul class="experience-bullets">
+                            <li>Built benchmark suites to study heterogeneous architectures and computation patterns.</li>
+                            <li><strong>Collaborative Computing on Heterogeneous CPU-FPGA Architectures Using OpenCL</strong><br>Sitao Huang, Li-Wen Chang, Izzat El Hajj, Simon Garcia de Gonzalo, Juan Gómez Luna, Sai Rahul Chalamalasetti, Mohamed El-Hadedy, Dejan Milojicic, Onur Mutlu, Deming Chen and Wen-Mei Hwu<br>ICPE, 2019</li>
+                            <li><strong>Collaborative Computing for Heterogeneous Integrated Systems</strong> (<a href="http://dl.acm.org/citation.cfm?id=3030244">doi</a>)<br>Li-Wen Chang, Juan Gómez-Luna, Izzat El Hajj, Sitao Huang, Deming Chen and Wen-mei W. Hwu<br>ICPE, 2017</li>
+                            <li><strong>Chai: Collaborative Heterogeneous Applications for Integrated-architectures</strong><br>Juan Gómez-Luna, Izzat El Hajj, Li-Wen Chang, Victor Garcia-Flores, Simon Garcia de Gonzalo, Thomas B. Jablin, Antonio J. Peña and Wen-Mei Hwu<br>ISPASS, 2017</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2015–Fall 2017</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Dynamic Parallelism Optimizations for GPUs</h3>
+                        <ul class="experience-bullets">
+                            <li>Developed GPU dynamic-parallelism optimizations and a compiler to automate them, delivering substantial speedups.</li>
+                            <li><strong>KLAP: Kernel Launch Aggregation and Promotion for Optimizing Dynamic Parallelism</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7783716">doi</a>)<br>Izzat El Hajj, Juan Gómez-Luna, Cheng Li, Li-Wen Chang, Dejan Milojicic and Wen-mei W. Hwu<br>MICRO, 2016</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2014–Summer 2017</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">GPU Data Sliding</h3>
+                        <ul class="experience-bullets">
+                            <li>Studied algorithms that reduce global-memory traffic for data layout transformations and relational algebra.</li>
+                            <li><strong>In-Place Data Sliding Algorithms for Many-Core Architectures</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7349576">doi</a>)<br>Juan Gómez-Luna, Li-Wen Chang, I-Jui Sung, Nicolás Guil Mata and Wen-Mei Hwu<br>In Parallel Processing, International Conference on (ICPP), 2015</li>
+                            <li><strong>In-Place Matrix Transposition on GPUs</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7059219">doi</a>)<br>J. Gómez-Luna, I.-J. Sung, L.-W. Chang, J. M. González-Linares, N. Guil and W.-m. Hwu<br>Parallel and Distributed Systems, IEEE Transactions on, 2015</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2009–Summer 2017</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Accelerator Benchmark Suites (Parboil and SPEC ACCEL) and Performance Study</h3>
+                        <ul class="experience-bullets">
+                            <li>Built benchmark suites to characterize GPU architectures, optimizations, and compiler transformations, and to study performance portability. (<a href="http://impact.crhc.illinois.edu/Parboil/parboil.aspx">code</a>)</li>
+                            <li><strong>Algorithm and Data Optimization Techniques for Scaling to Massively Threaded Systems</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6216339">doi</a>)<br>J. A. Stratton, C. Rodrigues, I.-J. Sung, L.-W. Chang, N. Anssari, G. D. Liu, W.-m. W.Hwu and N. Obeid<br>IEEE Computer, 2012</li>
+                            <li><strong>Optimization and Architecture Effects on GPU Computing Workload Performance</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6339605">doi</a>)<br>J. A. Stratton, N. Anssari, C. Rodrigues, I.-J. Sung, N. Obeid, L.-W. Chang, G. Liu, W.-m.Hwu<br>Innovative Parallel Computing, 2012 (<strong>Voted #2 Best Paper Finalist</strong>)</li>
+                            <li><strong>Parboil: A Revised Benchmark Suite for Scientific and Commercial Throughput Computing</strong> (<a href="http://impact.crhc.illinois.edu/Shared/Docs/impact-12-01.parboil.pdf">pdf</a>)<br>J. A. Stratton, C. Rodrigues, I.-J. Sung, N. Obeid, L.-W. Chang, N. Anssari, G. D. Liu and W.-m. W. Hwu<br>IMPACT Technical Report, University of Illinois at Urbana-Champaign, 2012 (<strong>Cited Greater than 300 Times</strong>)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2012–Fall 2014</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">GPU Cache and Scheduler Design</h3>
+                        <ul class="experience-bullets">
+                            <li>Characterized cache sensitivity and explored cache bypass and thread throttling strategies.</li>
+                            <li><strong>Adaptive Cache Management for Energy-efficient GPU Computing</strong> (<a href="http://dl.acm.org/citation.cfm?id=2742190">doi</a>)<br>X. Chen, L.-W. Chang, C. I. Rodrigues, J. Lv, Z. Wang and W.-m. W. Hwu<br>MICRO, 2014</li>
+                            <li><strong>Adaptive Cache Bypass and Insertion for Many-core Accelerators</strong> (<a href="http://dl.acm.org/citation.cfm?id=2613909">doi</a>)<br>Xuhao Chen, Shengzhao Wu, Li-Wen Chang, Wei-Sheng Huang, Carl Pearson, Zhiying Wang, and Wen-mei W Hwu<br>Proceedings of International Workshop on Manycore Embedded Systems, 2014</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2010–Summer 2014</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">GPU Tridiagonal Solver Library</h3>
+                        <ul class="experience-bullets">
+                            <li>Built the first GPU pivoting tridiagonal solver, later included as gtsv in NVIDIA cuSPARSE 5.5+. (<a href="https://bitbucket.org/lchang20/gtsv/">code</a>)</li>
+                            <li><strong>A Guide for Implementing Tridiagonal Solvers on GPUs</strong> (<a href="http://link.springer.com/chapter/10.1007/978-3-319-06548-9_2">doi</a>)<br>Li-Wen Chang, and Wen-mei W. Hwu<br>Numerical Computations with GPUs, 2015</li>
+                            <li><strong>Scalable Parallel Tridiagonal Algorithms with Diagonal Pivoting and Their Optimization for Many-core Architectures</strong> (<a href="http://lchang20.github.io/papers/chang-ms.pdf">pdf</a>)<br>L.-W. Chang<br>M.S. Thesis, 2014</li>
+                            <li><strong>Mapping Tridiagonal Solvers to Linear Recurrences</strong> (<a href="http://impact.crhc.illinois.edu/shared/report/impact-13-01.tridiagonal.pdf">pdf</a>)<br>Li-Wen Chang, and Wen-mei W. Hwu<br>IMPACT Technical Report, University of Illinois at Urbana-Champaign, 2013</li>
+                            <li><strong>A Scalable, Numerically Stable High-Performance Tridiagonal Solver using GPUs</strong> (<a href="http://dl.acm.org/citation.cfm?id=2389033">doi</a>)<br>L.-W. Chang, J. A. Stratton, H.-S. Kim and W.-m. W. Hwu<br>SC, 2012</li>
+                            <li><strong>A Scalable Tridiagonal Solver for GPUs</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6047212">doi</a>)<br>Hee-Seok Kim, Shengzhao Wu, Li-Wen Chang, Wen-mei W. Hwu<br>In Parallel Processing, International Conference on (ICPP), 2011</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2010–Fall 2013</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">GPU Empirical Mode Decomposition Library</h3>
+                        <ul class="experience-bullets">
+                            <li>Built a high-performance GPU multi-dimensional EMD library with significant speedups. (<a href="https://bitbucket.org/lchang20/meemd/">code</a>)</li>
+                            <li><strong>Parallel Implementation of Multi-Dimensional Ensemble Empirical Mode Decomposition</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5946808">doi</a>)<br>L.-W. Chang, M.-T. Lo, N. Anssari, K.-H. Hsu, N. Huang and W.-m. W. Hwu<br>International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2011</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Spring 2008–Summer 2009</p>
+                        <p class="experience-org">NTU</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">High-Performance Ultrasound</h3>
+                        <ul class="experience-bullets">
+                            <li>Developed a high-frequency (50 MHz) real-time ultrasonic imaging system on FPGA and GPU that became a commercial product.</li>
+                            <li><strong>Graphics Processing Unit-Based High-Frame-Rate Color Doppler Ultrasound Processing</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5278435">doi</a>)<br>Li-Wen Chang, Ke-Hsin Hsu, Pai-Chi Li<br>Ultrasonics, Ferroelectrics, and Frequency Control, IEEE Transactions on, 2009</li>
+                            <li><strong>GPU-Based Color Doppler Ultrasound Processing</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5441947">doi</a>)<br>L.-W. Chang, K.-H. Hsu, P.-C. Li<br>International Ultrasonics Symposium (IUS), 2009</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2005–Spring 2006</p>
+                        <p class="experience-org">NTU</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Computational Photography</h3>
+                        <ul class="experience-bullets">
+                            <li>Studied light-field cameras and their visual effects.</li>
+                            <li><strong>Depth Detection of Light Field</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4217224">doi</a>)<br>Yi-Hao Kao, Chia-Kai Liang, Li-Wen Chang, Homer H. Chen<br>ICASSP 2007</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Spring 2005–Fall 2005</p>
+                        <p class="experience-org">NTU</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Rolling Shutter Effect</h3>
+                        <ul class="experience-bullets">
+                            <li>Provided early analysis of the rolling shutter effect and an efficient compensation method.</li>
+                            <li><strong>Analysis and Compensation of Rolling Shutter Effect</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4549748">doi</a>)<br>Chia-Kai Liang, Li-Wen Chang, Homer H. Chen<br>Image Processing, IEEE Transactions on, 2008 (<strong>Cited Greater than 100 Times</strong>)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-9 col-md-12">
-                <p>
-                  <span class="text-strong">ML Training & Inference Acceleration, Automation, Architecture (AAA)</span><br>
-                  <span class="text-italic">We accelerate GenAI training and inference with system- and compiler-level optimizations.</span><br>
-                  <span class="text-italic">We build production tools that automate performance tuning, scaling, and deployment.</span><br>
-                  <span class="text-italic">We design advanced architectures and runtimes for efficient large-model execution.</span><br>
-                </p>
-                <ul>
-                  <li>
-                    <span class="text-muted"> 
-                     <strong>Triton-distributed: Distributed Triton for Parallel Systems</strong> (<a href="https://github.com/ByteDance-Seed/Triton-distributed">github</a>, <a href="https://arxiv.org/abs/2503.20313">arXiv</a>)
-                     <br>Enables ergonomic kernel programming across distributed systems.</span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                     <strong>ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference</strong> (<a href="https://github.com/ByteDance-Seed/ShadowKV">github</a>, <a href="https://arxiv.org/abs/2410.21465">arXiv</a>)
-                     <br>Delivers high-throughput long-context LLM inference.</span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                     <strong>veScale: a PyTorch native LLM training framework</strong> (<a href="https://github.com/volcengine/veScale">github</a>)
-                     <br>Simplifies scaling single-device PyTorch models to distributed training.</span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                     <strong>Flux: a fast communication-overlapping library for tensor parallelism on GPUs</strong> (<a href="https://github.com/bytedance/flux">github</a>, <a href="https://arxiv.org/abs/2406.06858">arXiv</a>, <a href="https://arxiv.org/abs/2502.19811">arXiv</a>)
-                     <br>Overlaps communication and compute for tensor parallelism.</span>
-                  </li>
-                  <li>
-                 <span class="text-muted"> 
-                  <strong>ByteIR: a model compilation solution for various hardware</strong> (<a href="https://github.com/bytedance/byteir">github</a>, <a href="https://byteir.ai">website</a>)
-                  <br>Compiler tooling for high-performance training and inference across CPUs, GPUs, and ASICs.</span>
-                    </li>
-                    <li>
-                 <span class="text-muted"> 
-                  <strong>ByteMLPerf: an AI accelerator benchmarking tool</strong> (<a href="https://github.com/bytedance/ByteMLPerf">github</a>, <a href="https://bytemlperf.ai">website</a>)
-                  <br>Benchmarks AI accelerators with a production-oriented focus on usability and versatility.</span>
-                    </li>
-                  <li>
-                  <span class="text-muted"> 
-                    AI-for-code systems focused on productivity and reliability.
-                  </span>
-                  </li>
-                  <li>
-                  <span class="text-muted"> 
-                    Large-model performance estimation and prediction tooling.
-                  </span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                    Distributed heterogeneous system prototypes for training and inference.
-                  </span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                    A programming-language and compiler research initiative.
-                  </span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                      Communication synthesis for scalable model parallelism.
-                    </span>
-                    </li>
-                  <li>
-                    <span class="text-muted"> 
-                    Computer-architecture studies for AI workloads.
-                  </span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                    Acceleration projects spanning GPUs and NPUs.
-                  </span>
-                  </li>
-                  <li>
-                    <span class="text-muted"> 
-                      Additional systems and infrastructure projects.
-                  </span>
-                  </li>
-                </ul>
-            </div>
-         </div>
-        <br>
-
-          <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">July 2017-June 2021, Microsoft</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">High-performance AI Inference Engine</span><br>
-                      <span class="text-italic">Built a compiler-based inference engine focused on high performance and portability.</span>
-                    </p>
-                    <ul>
-                      <li>
-                     <span class="text-muted"> 
-                      <strong>NGEMM: Optimizing GEMM for Deep Learning via Compiler-based Techniques</strong> (<a href="https://arxiv.org/abs/1910.00178">arXiv</a>)
-                      <br>Wenlei Bao, Li-Wen Chang, Yang Chen, Ke Deng, Amit Agarwal, Emad Barsoum, and Abe Taha
-                      <br>arXiv.org, 2019</span>
-                        </li>
-                        <li>
-                     <span class="text-muted"> 
-                      <strong>Accelerating Recurrent Neural Networks through Compiler Techniques and Quantization</strong>
-                      <br>Li-Wen Chang, Yang Chen, Wenlei Bao, Amit Agarwal, Eldar Akchurin, Ke Deng and Emad Barsoum 
-                      <br>Workshop on Systems for ML at NeurIPS, 2018</span>
-                        </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2012-Fall 2017, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">TANGRAM – High-level Language for Heterogeneous Computing</span><br>
-                      <span class="text-italic">Developed a high-level, performance-portable language for CPUs, GPUs, FPGAs, and clusters, targeting near–vendor-library performance from a single source.</span>
-                    </p>
-                    <ul>
-                        <li>
-                     <span class="text-muted"> 
-                      <strong>Efficient Kernel Synthesis for Performance Portable Programming</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7783715">doi</a>)<br>Li-Wen Chang, Izzat El Hajj, Christopher Rodrigues, Juan Gómez-Luna and Wen-mei W. Hwu<br>MICRO, 2016</span>
-                        </li>
-                        <li>
-                     <span class="text-muted"> 
-                      <strong>DySel: Lightweight Dynamic Selection for Kernel-based Data-Parallel Programming Model</strong> (<a href="http://dl.acm.org/citation.cfm?id=2872373">doi</a>)<br>
-                      Li-Wen Chang, Hee-Seok Kim and Wen-mei W. Hwu<br>
-                      ASPLOS, 2016 </span>
-                      </li>
-                      <li>
-                     <span class="text-muted"> 
-                      <strong>A Programming System for Future Proofing Performance Critical Libraries</strong> (<a href="http://dl.acm.org/citation.cfm?id=2851178">doi</a>)<br>Li-Wen Chang, Izzat El Hajj, Hee-Seok Kim, Juan Gómez-Luna, Abdul Dakkak and Wen-mei W. Hwu<br>
-                      PPoPP, 2016 (short paper) </span>
-                      </li>
-                      <li>
-                     <span class="text-muted"> 
-                      <strong>Toward Application Performance Portability for Heterogeneous Computing</strong> 
-                      <br>Li-Wen Chang, Hee-Seok Kim, and Wen-mei Hwu<br>
-                      TECHCON, 2015</span>
-                      </li>
-                      <li>
-                     <span class="text-muted"> 
-                      <strong>Transitioning HPC Software to Exascale Heterogeneous Computing</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7237412">doi</a>)<br>Wen-mei Hwu, Li-Wen Chang, Hee-Seok Kim, Abdul Dakkak, and Izzat El Hajj<br>
-                      Computational Electromagnetics International Workshop (CEM), 2015</span>
-                      </li>
-                      <li>
-                     <span class="text-muted"> 
-                      <strong>Tangram: a High-level Language for Performance Portable Code Synthesis</strong> (<a href="http://impact.crhc.illinois.edu/shared/Papers/multiprog15-Tangram.pdf">pdf</a>)<br>Li-Wen Chang, Abdul Dakkak, Christopher I Rodrigues, and Wen-mei Hwu<br>
-                      Eighth Workshop on Programmability Issues for Heterogeneous Multicores (MULTIPROG), 2015</span>
-                      </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2015-Fall 2017, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">
-                       Heterogeneous Benchmark Suite and Characteristics Study</span><br>
-                      <span class="text-italic">Built benchmark suites to study heterogeneous architectures and computation patterns.</span></p>
-                      <ul>
-                        <li>
-                     <span class="text-muted"> <strong>Collaborative Computing on Heterogeneous CPU-FPGA Architectures Using OpenCL</strong> <br>Sitao Huang, Li-Wen Chang, Izzat El Hajj, Simon Garcia de Gonzalo, Juan Gómez Luna, Sai Rahul Chalamalasetti, Mohamed El-Hadedy, Dejan Milojicic, Onur Mutlu, Deming Chen and Wen-Mei Hwu<br>ICPE, 2019</span>
-                        </li>
-                        <li>
-                     <span class="text-muted"> <strong>Collaborative Computing for Heterogeneous Integrated Systems</strong> (<a href="http://dl.acm.org/citation.cfm?id=3030244">doi</a>)<br>Li-Wen Chang, Juan Gómez-Luna, Izzat El Hajj, Sitao Huang, Deming Chen and Wen-mei W. Hwu<br>ICPE, 2017</span>
-                        </li>
-                         <li>
-                     <span class="text-muted"> <strong>Chai: Collaborative Heterogeneous Applications for Integrated-architectures</strong><br>Juan Gómez-Luna, Izzat El Hajj, Li-Wen Chang, Victor Garcia-Flores, Simon Garcia de Gonzalo, Thomas B. Jablin, Antonio J. Peña and Wen-Mei Hwu<br>ISPASS, 2017</span>
-                        </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2015-Fall 2017, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">Dynamic Parallelism Optimizations for GPUs</span><br>
-                      <span class="text-italic">Developed GPU dynamic-parallelism optimizations and a compiler to automate them, delivering substantial speedups.</span></p>
-                    <ul>
-                        <li>
-                     <span class="text-muted"> <strong>KLAP: Kernel Launch Aggregation and Promotion for Optimizing Dynamic Parallelism</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7783716">doi</a>)<br>Izzat El Hajj, Juan Gómez-Luna, Cheng Li, Li-Wen Chang, Dejan Milojicic and Wen-mei W. Hwu<br>MICRO, 2016</span>
-                        </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2014-Summer 2017, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">GPU Data Sliding</span><br>
-                      <span class="text-italic">Studied algorithms that reduce global-memory traffic for data layout transformations and relational algebra.</span>
-                    </p>
-                    <ul>
-                    <li>
-                     <span class="text-muted"> <strong>In-Place Data Sliding Algorithms for Many-Core Architectures</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7349576">doi</a>)<br>
-                      Juan Gómez-Luna, Li-Wen Chang, I-Jui Sung, Nicolás Guil Mata and Wen-Mei Hwu <br>
-                      In Parallel Processing, International Conference on (ICPP), 2015 </span>
-                    </li>
-                    <li>
-                     <span class="text-muted"> <strong>In-Place Matrix Transposition on GPUs</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7059219">doi</a>)<br>J. Gómez-Luna, I.-J. Sung, L.-W. Chang, J. M. González-Linares, N. Guil and W.-m. Hwu<br>
-                      Parallel and Distributed Systems, IEEE Transactions on, 2015 </span>
-                    </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2009-Summer 2017, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                       <span class="text-strong">Accelerator Benchmark Suites (Parboil and SPEC ACCEL) and Performance Study</span><br>
-                       <span class="text-italic">Built benchmark suites to characterize GPU architectures, optimizations, and compiler transformations, and to study performance portability. (<a href="http://impact.crhc.illinois.edu/Parboil/parboil.aspx">code</a>)</span>
-                    </p>                         
-                    <ul>
-                        <li>
-                     <span class="text-muted"> <strong>Algorithm and Data Optimization Techniques for Scaling to Massively Threaded Systems</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6216339">doi</a>)<br>
-                      J. A. Stratton, C. Rodrigues, I.-J. Sung, L.-W. Chang, N. Anssari, G. D. Liu, W.-m. W.Hwu and N. Obeid<br>
-                      IEEE Computer, 2012 </span>
-                        </li>
-                         <li>
-                     <span class="text-muted"> <strong>Optimization and Architecture Effects on GPU Computing Workload Performance</strong> (<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6339605">doi</a>)<br>
-                      J. A. Stratton, N. Anssari, C. Rodrigues, I.-J. Sung, N. Obeid, L.-W. Chang, G. Liu, W.-m.Hwu<br>
-                      Innovative Parallel Computing, 2012 (<strong>Voted #2 Best Paper Finalist</strong>)</span>
-                        </li>
-                         <li>
-                     <span class="text-muted"> <strong>Parboil: A Revised Benchmark Suite for Scientific and Commercial Throughput Computing</strong> (<a href="http://impact.crhc.illinois.edu/Shared/Docs/impact-12-01.parboil.pdf">pdf</a>)<br>
-                      J. A. Stratton, C. Rodrigues, I.-J. Sung, N. Obeid, L.-W. Chang, N. Anssari, G. D. Liu and W.-m. W. Hwu<br>
-                      IMPACT Technical Report, University of Illinois at Urbana-Champaign, 2012 (<strong>Cited Greater than 300 Times</strong>)</span>
-                        </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2012-Fall 2014, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">GPU Cache and Scheduler Design</span><br>
-                      <span class="text-italic">Characterized cache sensitivity and explored cache bypass and thread throttling strategies.</span>
-                    </p>
-                    <ul>
-                    <li>
-                     <span class="text-muted"> <strong>Adaptive Cache Management for Energy-efficient GPU Computing</strong> (<a href="http://dl.acm.org/citation.cfm?id=2742190">doi</a>)<br>X. Chen, L.-W. Chang, C. I. Rodrigues, J. Lv, Z. Wang and W.-m. W. Hwu<br>
-                      MICRO, 2014 </span>
-                    </li>
-                    <li>
-                     <span class="text-muted"> <strong>Adaptive Cache Bypass and Insertion for Many-core Accelerators</strong> (<a href="http://dl.acm.org/citation.cfm?id=2613909">doi</a>)<br>Xuhao Chen, Shengzhao Wu, Li-Wen Chang, Wei-Sheng Huang, Carl Pearson, Zhiying Wang, and Wen-mei W Hwu<br>
-                      Proceedings of International Workshop on Manycore Embedded Systems, 2014 </span>
-                    </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2010-Summer 2014, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                        <span class="text-strong">GPU Tridiagonal Solver Library</span><br>
-                        <span class="text-italic">Built the first GPU pivoting tridiagonal solver, later included as gtsv in NVIDIA cuSPARSE 5.5+. (<a href="https://bitbucket.org/lchang20/gtsv/">code</a>)</span>
-                    </p>
-                    <ul>
-                    <li>
-                     <span class="text-muted"> <strong>A Guide for Implementing Tridiagonal Solvers on GPUs</strong> (<a href="http://link.springer.com/chapter/10.1007/978-3-319-06548-9_2">doi</a>)<br>Li-Wen Chang, and Wen-mei W. Hwu<br>
-                      Numerical Computations with GPUs, 2015</span>
-                    </li> 
-                    <li>
-                     <span class="text-muted"> <strong>Scalable Parallel Tridiagonal Algorithms with Diagonal Pivoting and Their Optimization for Many-core Architectures</strong> (<a href="http://lchang20.github.io/papers/chang-ms.pdf">pdf</a>)<br>
-                      L.-W. Chang<br>
-                      M.S. Thesis, 2014 </span>
-                    </li>
-                    <li>
-                     <span class="text-muted"> <strong>Mapping Tridiagonal Solvers to Linear Recurrences</strong> (<a href="http://impact.crhc.illinois.edu/shared/report/impact-13-01.tridiagonal.pdf">pdf</a>)<br>
-                      Li-Wen Chang, and Wen-mei W. Hwu<br>
-                      IMPACT Technical Report, University of Illinois at Urbana-Champaign, 2013 </span>
-                    </li>
-                    <li>
-                     <span class="text-muted"> <strong>A Scalable, Numerically Stable High-Performance Tridiagonal Solver using GPUs</strong> (<a href="http://dl.acm.org/citation.cfm?id=2389033">doi</a>)<br>L.-W. Chang, J. A. Stratton, H.-S. Kim and W.-m. W. Hwu<br>
-                      SC, 2012 </span>
-                    </li>
-                      <li>
-                     <span class="text-muted"> <strong>A Scalable Tridiagonal Solver for GPUs</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6047212">doi</a>)<br>Hee-Seok Kim, Shengzhao Wu, Li-Wen Chang, Wen-mei W. Hwu<br>
-                      In Parallel Processing, International Conference on (ICPP), 2011 </span>
-                    </li>   
-                    </ul>
-                </div>
-             </div>
-            <br>
-             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2010-Fall 2013, UIUC</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                       <span class="text-strong">GPU Empirical Mode Decomposition Library</span><br>
-                       <span class="text-italic">Built a high-performance GPU multi-dimensional EMD library with significant speedups. (<a href="https://bitbucket.org/lchang20/meemd/">code</a>)</span>
-                    </p>
-                    <ul>
-                    <li>
-                     <span class="text-muted"> <strong>Parallel Implementation of Multi-Dimensional Ensemble Empirical Mode Decomposition</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5946808">doi</a>)<br>L.-W. Chang, M.-T. Lo, N. Anssari, K.-H. Hsu, N. Huang and W.-m. W. Hwu<br>International Conference on Acoustics, Speech, and Signal Processing (ICASSP),2011 </span>
-                    </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Spring 2008-Summer 2009, NTU</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p> 
-                       <span class="text-strong">High-Performance Ultrasound</span><br>
-                       <span class="text-italic">Developed a high-frequency (50 MHz) real-time ultrasonic imaging system on FPGA and GPU that became a commercial product.</span>
-                    </p>
-                    <ul>
-                    <li>
-                     <span class="text-muted"> <strong>Graphics Processing Unit-Based High-Frame- Rate Color Doppler Ultrasound Processing</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5278435">doi</a>)<br>Li-Wen Chang, Ke-Hsin Hsu, Pai-Chi Li<br>Ultrasonics, Ferroelectrics, and Frequency Control, IEEE Transactions on, 2009 </span>
-                    </li>
-                    <li>
-                     <span class="text-muted"> <strong>GPU-Based Color Doppler Ultrasound Processing</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5441947">doi</a>)<br>L.-W. Chang, K.-H. Hsu, P.-C. Li<br>International Ultrasonics Symposium (IUS), 2009 </span>
-                    </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2005-Spring 2006, NTU</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">Computational Photography</span><br>
-                      <span class="text-italic">Studied light-field cameras and their visual effects.</span>
-                    </p>
-                    <ul>
-                    <li>
-                     <span class="text-muted"> <strong>Depth Detection of Light Field</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4217224">doi</a>)<br>Yi-Hao Kao, Chia-Kai Liang, Li-Wen Chang, Homer H. Chen<br>ICASSP 2007 </span>
-                    </li>
-                    </ul>
-                </div>
-             </div>
-            <br>
-             <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Spring 2005-Fall 2005, NTU</p>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">Rolling Shutter Effect</span><br>
-                      <span class="text-italic">Provided early analysis of the rolling shutter effect and an efficient compensation method.</span>
-                    </p>
-                    <ul>
-                    <li>
-                     <span class="text-muted"> <strong>Analysis and Compensation of Rolling Shutter Effect</strong> (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4549748">doi</a>)<br>Chia-Kai Liang, Li-Wen Chang, Homer H. Chen<br>Image Processing, IEEE Transactions on, 2008 (<strong>Cited Greater than 100 Times</strong>)</span>
-                    </li>
-                    </ul>
-                </div>
-             </div>
         </div>
     </section>
 
@@ -484,74 +312,65 @@
             </div>
         </div>
         <div class="container">
-
-          <div class="row">
-              <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Spring 2014, UIUC</p>
+          <div class="experience-timeline">
+              <div class="experience-entry">
+                  <div class="experience-meta">
+                      <p class="text-grey">Spring 2014</p>
+                      <p class="experience-org">UIUC</p>
+                  </div>
+                  <div class="experience-card">
+                      <h3 class="experience-role">GPU I/O Optimization</h3>
+                  </div>
               </div>
-              <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">GPU I/O Optimization</span>
-                    </p>
+              <div class="experience-entry">
+                  <div class="experience-meta">
+                      <p class="text-grey">Fall 2012</p>
+                      <p class="experience-org">UIUC</p>
+                  </div>
+                  <div class="experience-card">
+                      <h3 class="experience-role">GPU Sharing Tracker</h3>
+                  </div>
+              </div>
+              <div class="experience-entry">
+                  <div class="experience-meta">
+                      <p class="text-grey">Summer–Fall 2008</p>
+                      <p class="experience-org">NTU</p>
+                  </div>
+                  <div class="experience-card">
+                      <h3 class="experience-role">Chinese Speech Adaptation</h3>
+                      <ul class="experience-bullets">
+                          <li>Voice Activity Detection and Segmentation.</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="experience-entry">
+                  <div class="experience-meta">
+                      <p class="text-grey">Spring 2007</p>
+                      <p class="experience-org">UIUC</p>
+                  </div>
+                  <div class="experience-card">
+                      <h3 class="experience-role">Stock Portfolio Selection</h3>
+                  </div>
+              </div>
+              <div class="experience-entry">
+                  <div class="experience-meta">
+                      <p class="text-grey">Fall 2006</p>
+                      <p class="experience-org">UIUC</p>
+                  </div>
+                  <div class="experience-card">
+                      <h3 class="experience-role">3D Object Recognition</h3>
+                  </div>
+              </div>
+              <div class="experience-entry">
+                  <div class="experience-meta">
+                      <p class="text-grey">Spring 2005</p>
+                      <p class="experience-org">NTU</p>
+                  </div>
+                  <div class="experience-card">
+                      <h3 class="experience-role">Face Detection</h3>
+                  </div>
               </div>
           </div>
-
-          <div class="row">
-              <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2012, UIUC</p>
-              </div>
-              <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">GPU Sharing Tracker</span>
-                    </p>
-              </div>
-          </div>
-
-          <div class="row">
-              <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Summer-Fall 2008, NTU</p>
-              </div>
-              <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">Chinese Speech Adaptation</span><br>
-                      <span class="text-strong">Voice Activity Detection and Segmentation</span>
-                    </p>
-              </div>
-          </div>
-        
-          <div class="row">
-            <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Spring 2007, UIUC</p>
-            </div>
-            <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">Stock Portfolio Selection</span>
-                    </p>
-            </div>
-          </div>
-  
-    
-          <div class="row">
-            <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Fall 2006, UIUC</p>
-            </div>
-            <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">3D Object Recognition</span>
-                    </p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                 <p class="text-grey">Spring 2005, NTU</p>
-            </div>
-            <div class="col-lg-9 col-md-12">
-                    <p>
-                      <span class="text-strong">Face Detection</span>
-                    </p>
-            </div>
-          </div>  
         </div>   
     </section>
  
