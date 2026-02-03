@@ -30,18 +30,9 @@
     font-weight:200;
     font-style: italic;
 }
-li {
-    color:#999;
-    margin:0;
-    font-size:12px;
-}
-
 ul{
-    -webkit-margin-before:0;
-    -webkit-margin-after:0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 20px;
+    margin: 0;
+    padding-left: 20px;
 }
 
 .navbar-default .nav > li:hover .dropdown-content {
@@ -108,6 +99,7 @@ body {
   font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
   background-color: var(--paper);
   color: var(--ink);
+  -webkit-tap-highlight-color: #222222;
 }
 hr {
   border-color: var(--accent);
@@ -664,7 +656,4 @@ img::selection {
 img::-moz-selection {
   color: white;
   background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #222222;
 }
