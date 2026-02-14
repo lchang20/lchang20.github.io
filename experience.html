@@ -16,12 +16,8 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
-    <link
-        href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Source+Serif+4:opsz,wght@8..60,300;400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="font/css/academicons.css" />
 
     <!-- Plugin CSS -->
@@ -82,8 +78,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Experience</r>
-                </h1>
+                <h1 id="homeHeading">Experience</h1>
                 <hr>
                 <p>A tiny Research Scientist and Engineering Director<br>at ByteDance</p>
 
@@ -102,161 +97,137 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Feb. 2025-Present</p>
+            <div class="experience-timeline">
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Feb. 2025–Present</p>
+                        <p class="experience-org">ByteDance Seed</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Principal-level Research Scientist &amp; Engineering Director</h3>
+                        <ul class="experience-bullets">
+                            <li>Lead research and engineering strategy for AI compilers, model deployment, and distributed training and inference acceleration.</li>
+                            <li>Direct model deployment teams for international hardware.</li>
+                            <li>Guide multiple Triton compiler initiatives (<a href="https://github.com/ByteDance-Seed/Triton-distributed">Triton-distributed</a> and a confidential AI ASIC extension), GPU/ASIC acceleration, and large-scale training and inference systems.</li>
+                            <li>Mentor cross-disciplinary projects in programming languages, computer architecture, and system acceleration.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Principal Research Scientist</strong> and <strong>Engineering Director</strong><br> 
-                        <em>- Led strategic research and development efforts, focusing on agentic AI, AI compiler optimizations, model deployment, and distributed training and inference acceleration.</em><br> 
-                        <em>- Directed international model deployment teams.</em><br> 
-                        <em>- Directed high-impact projects in Triton language/compiler  (e.g. <a href="https://github.com/ByteDance-Seed/Triton-distributed">Triton-distributed</a>, and another for AI ASIC), MLIR-based compilers, GPU/AI ASIC acceleration and deployment, SW-HW co-design, algorithm-system co-design, and large-scale model training and inference.</em><br> 
-                        <em>- Mentored innovative projects in agents, code generation, programming languages, computer architecture, and acceleration domains.</em><br>
-                    </p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">May 2023–Feb. 2025</p>
+                        <p class="experience-org">ByteDance Seed/AML</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Senior Staff-level Research Scientist &amp; Engineering Manager</h3>
+                        <ul class="experience-bullets">
+                            <li>Led an MLIR-based compiler team targeting CPU, GPU, edge, AI ASICs, and distributed systems; drove SW/HW co-design for multiple generations of in-house AI ASICs and DPUs. Directed <a href="https://byteir.ai">ByteIR</a> in collaboration with OpenXLA, Torch-MLIR, and ONNX-MLIR.</li>
+                            <li>Managed production deployment of <strong>1,000s</strong> of models across <strong>10,000s</strong> of in-house AI ASICs.</li>
+                            <li>Led a heterogeneous computing team optimizing training, inference, and deployment across commercial DLAs; oversaw benchmarking via <a href="https://bytemlperf.ai">ByteMLPerf</a>.</li>
+                            <li>Directed GPU acceleration initiatives, including <a href="https://github.com/bytedance/flux">FLUX</a> and an <strong>AMD GPU</strong> acceleration effort.</li>
+                            <li>Led <strong>Triton</strong> projects for in-house AI ASICs and distributed systems (<a href="https://github.com/ByteDance-Seed/Triton-distributed">Triton-distributed</a>).</li>
+                            <li>Supervised distributed LLM training and inference acceleration, including <a href="https://github.com/volcengine/veScale">veScale</a> and <a href="https://github.com/ByteDance-Seed/ShadowKV">ShadowKV</a>.</li>
+                            <li>Initiated a large-scale model performance estimation program.</li>
+                            <li>Mentored projects in programming languages, computer architecture, and acceleration.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">ByteDance Seed</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Jun 2021–May 2023</p>
+                        <p class="experience-org">ByteDance AML</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Staff-level Research Scientist</h3>
+                        <ul class="experience-bullets">
+                            <li>Founded and led a model compilation team for an MLIR-based AI compiler across CPUs, GPUs, and AI ASICs, including SW/HW co-design for AI ASICs; launched <a href="https://byteir.ai">ByteIR</a>.</li>
+                            <li>Led a production team deploying numerous models on in-house AI ASICs.</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">May 2023-Feb. 2025</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Sept 2018–Jun 2021</p>
+                        <p class="experience-org">Microsoft Cloud &amp; AI</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Senior Software Engineer</h3>
+                        <ul class="experience-bullets">
+                            <li>Led an AI compilation team building an LLVM/MLIR-based compiler for Maia 100, GPUs, and CPUs within ONNX Runtime. Led the <strong>Argo</strong> and <a href="https://github.com/microsoft/onnxruntime-openenclave/blob/openenclave-public/docs/execution_providers/Nuphar-ExecutionProvider.md">Nuphar</a> projects, delivering up to <strong>3x</strong> cost reduction and <strong>10x</strong> faster model release cycles for <strong>Azure Cognitive Services</strong>.</li>
+                            <li>Developed performance optimizations and a programming model for Maia 100.</li>
+                            <li>Co-designed pipeline parallelism for ONNX Runtime training.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Senior Staff Research Scientist</strong> and <strong>Engineering Manager</strong><br> 
-                        <em>- Led a model compilation team for an MLIR-based AI compiler targeting CPU, GPU, edge, NPUs, and distributed systems. Spearheaded SW-HW co-design for multiple generations of in-house NPUs and DPUs. Directed the
-                            <a href="https://byteir.ai">ByteIR</a> project, collaborating with OpenXLA, Torch-MLIR, and ONNX-MLIR.</em><br> 
-                        <em>- Managed a production team deploying <strong>1,000s</strong> of models across <strong>10,000s</strong> of in-house NPUs.</em><br> 
-                        <em>- Managed a heterogeneous computing team optimizing training, inference, and deployment across commercial DLAs. Oversaw performance benchmarking through the <a href="https://bytemlperf.ai">ByteMLPerf</a> project.</em><br> 
-                        <em>- Directed GPU acceleration initiatives, including the <a href="https://github.com/bytedance/flux">FLUX</a> project and the <strong>AMD GPU</strong> acceleration effort.</em><br> 
-                        <em>- Directed two <strong>Triton</strong> projects for in-house NPUs and distributed systems (<a href="https://github.com/ByteDance-Seed/Triton-distributed">Triton-distributed</a>).</em><br> 
-                        <em>- Supervised distributed LLM training and inference acceleration projects, including the training acceleration framework, <a href="https://github.com/volcengine/veScale">veScale</a>, and <a href="https://github.com/ByteDance-Seed/ShadowKV">ShadowKV</a>.</em><br> 
-                        <em>- Led a large-scale model performance estimation initiative.</em><br> 
-                        <em>- Mentored innovative projects in programming languages, computer architecture, and acceleration domains.</em><br>
-                    </p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">July 2017–Aug 2018</p>
+                        <p class="experience-org">Microsoft AI &amp; Research</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Software Engineer</h3>
+                        <ul class="experience-bullets">
+                            <li>Co-led the AI compiler and runtime for CNTK models, achieving <strong>10x+</strong> speedups over native CNTK.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">ByteDance Seed/AML</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Fall 2009–Summer 2017</p>
+                        <p class="experience-org">IMPACT Lab., UIUC</p>
+                        <p class="experience-org-detail">Supervised by <strong>Dr. Wen-mei W. Hwu</strong></p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Research Assistant</h3>
+                        <ul class="experience-bullets">
+                            <li>Researched high-performance GPU computing, compiler optimization, and computer architecture.</li>
+                            <li>Built a performance-portable programming system for CPUs, GPUs, FPGAs, and clusters, spanning language, compiler, and runtime design.</li>
+                            <li>Contributed to benchmark suites for hardware characterization and optimization, including <strong>Parboil</strong>, <strong>SPEC ACCEL</strong>, and <strong>Chai</strong>.</li>
+                            <li>Developed GPU optimization techniques for dynamic parallelism, data transformations, reductions, and dense/sparse BLAS; contributed the first GPU pivoting tridiagonal solver for <strong>NVIDIA cuSPARSE</strong> and multi-dimensional EMD for signal processing.</li>
+                            <li>Analyzed cache sensitivity and implemented cache protection, bypassing, and thread throttling to improve throughput.</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Jun 2021-May 2023</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Summer 2012</p>
+                        <p class="experience-org">NVIDIA</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Intern</h3>
+                        <ul class="experience-bullets">
+                            <li>Implemented real-time image inpainting optimizations for Tegra 3 to improve graphics performance.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Staff Research Scientist</strong> <br> 
-                        <em>- Initiated and led a model compilation team for an MLIR-based AI compiler for CPU, GPU, and NPUs, along with
-                            SW-HW co-design for NPUs. Founded and directed the <a href="https://byteir.ai">ByteIR</a> project.</em><br> 
-                        <em>- Led a production team deploying numerous production models on in-house NPUs.</em><br> 
-                    </p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Feb. 2008–July 2009</p>
+                        <p class="experience-org">Ultrasonic Imaging Lab., NTU</p>
+                        <p class="experience-org-detail">Supervised by <strong>Dr. Pai-Chi Li</strong></p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Full-time Research Assistant &amp; Engineer of a Stealth Mode Startup</h3>
+                        <ul class="experience-bullets">
+                            <li>Designed and developed an embedded heterogeneous system for <strong>high-frequency real-time ultrasonic imaging</strong> using <strong>FPGA</strong> and <strong>GPU</strong>; the system was commercialized by a startup.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">ByteDance AML</p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Sept 2018-Jun 2021</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Senior Software Engineer</strong> <br> 
-                        <em>- Led an AI compilation team designing an LLVM/MLIR-based compiler for Maia 100, GPUs, and CPUs with
-                            ONNX Runtime. Led the <strong>Argo</strong> and <a href="https://github.com/microsoft/onnxruntime-openenclave/blob/openenclave-public/docs/execution_providers/Nuphar-ExecutionProvider.md">Nuphar</a> projects. 
-                            Achieved up to <strong>3x</strong> cost reduction and <strong>10x</strong> acceleration in
-                            model release cycles for <strong>Azure Cognitive Services</strong>.</em><br> 
-                        <em>- Worked on performance optimizations and a programming model for Maia 100.</em><br> 
-                        <em>- Co-designed pipeline parallelism on ONNX Runtime training.</em><br> 
-                    </p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">Microsoft Cloud & AI</p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">July 2017-Aug 2018</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Software Engineer</strong><br> 
-                        <em>- Co-led and initiated an AI compiler and runtime for CNTK (Microsoft Cognitive Toolkit) models, achieving over
-                            <strong>10x</strong> speedups compared to native CNTK.</em><br> 
-                    </p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">Microsoft AI & Research</p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Fall 2009-Summer 2017</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Research Assistant</strong> <br> 
-                        <em>- Conducted research in <strong>high-performance GPU computing</strong>, <strong>compiler optimization</strong>, and <strong>computer architecture</strong>.</em><br> 
-                        <em>- Developed a high-level, performance-portable programming system for CPUs, GPUs, FPGAs, and clusters,
-                            incorporating a novel <strong>language</strong>, <strong>compiler</strong>, and <strong>runtime</strong>.</em><br>
-                        <em>- Contributed to widely-used benchmark suites for hardware characterization and optimization studies, including
-                            <strong>Parboil</strong>, <strong>SPEC ACCEL</strong>, and <strong>Chai</strong> for heterogeneous computing systems.</em><br>
-                        <em>- Developed GPU optimization strategies for diverse computation patterns, including <strong>dynamic parallelism</strong>, <strong>data transformations</strong> (padding, transposition, casting, packing), reductions, and <strong>dense/sparse BLAS</strong>. Contributed
-                            to multiple GPU libraries, including the first GPU <strong>pivoting tridiagonal solver</strong> for <strong>NVIDIA CUSPARSE</strong> and multi-dimensional Empirical Mode Decomposition for signal processing.</em><br>  
-                        <em>- Analyzed <strong>cache sensitivity</strong> of GPU applications and implemented <strong>cache protection</strong>, <strong>cache bypassing</strong>, and <strong>thread throttling</strong> to enhance throughput.</em><br>  
-                    </p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">IMPACT Lab., UIUC,<br>supervised by <strong>Dr. Wen-mei W. Hwu</strong></p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Summer 2012 </p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Intern</strong> <br> 
-                        <em>- Implemented real-time image inpainting optimizations for Tegra 3, enhancing graphical performance</em><br>
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <p class="text-grey">NVIDIA</p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Feb. 2008-July 2009 </p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Full-time Research Assistant</strong> and <strong>Engineer of a Stealth Mode Startup</strong><br> 
-                        <em>- Designed and developed an embedded heterogeneous system for <strong>high-frequency real-time ultrasonic imaging</strong>
-                            using <strong>FPGA</strong> and <strong>GPU</strong>. The system was successfully commercialized by a startup.</em>
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <p class="text-grey">Ultrasonic Imaging Lab., NTU,<br>supervised by <strong>Dr. Pai-Chi Li</strong></p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Sept. 2004–Jun. 2006</p>
+                        <p class="experience-org">MPAC Lab, NTU</p>
+                        <p class="experience-org-detail">Supervised by <strong>Dr. Homer H. Chen</strong></p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Undergrad. Research Assistant</h3>
+                        <ul class="experience-bullets">
+                            <li>Conducted early research on the <strong>rolling shutter effect</strong> in CMOS cameras, developing analysis and compensation techniques.</li>
+                            <li>Explored <strong>light-field camera</strong> design and its visual effects.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Sept. 2004–Jun. 2006</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Undergrad. Research Assistant</strong> <br> 
-                        <em>- Conducted pioneering research on the <strong>rolling shutter effect</strong> in CMOS cameras, developing analysis and
-                            compensation techniques.</em><br>
-                        <em>- Explored <strong>light-field camera</strong> design and investigated its visual effects.</em><br>
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <p class="text-grey">MPAC Lab at NTU,<br>supervised by <strong>Dr. Homer H. Chen</strong></p>
-                </div>
-            </div>
-            <hr class="full">
         </div>
     </section>
 
@@ -270,58 +241,53 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Jul. 2017</p>
+            <div class="experience-timeline">
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Jul. 2017</p>
+                        <p class="experience-org">University of Illinois at Urbana-Champaign (UIUC), IL</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Ph.D. in Electrical and Computer Engineering (ECE)</h3>
+                        <ul class="experience-bullets">
+                            <li>Advisor: Dr. Wen-mei Hwu.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Ph.D. in Electrical and Computer Engineering (ECE)</strong> <br>
-                        <em>Under Dr. Wen-mei Hwu's supervision.</em>
-                    </p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Aug. 2014</p>
+                        <p class="experience-org">University of Illinois at Urbana-Champaign (UIUC), IL</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">M.S. in Electrical and Computer Engineering (ECE)</h3>
+                        <ul class="experience-bullets">
+                            <li>Advisor: Dr. Wen-mei Hwu.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">University of Illinois at Urbana-Champaign (UIUC), IL </p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Jun. 2007</p>
+                        <p class="experience-org">National Taiwan University (NTU), Taipei, Taiwan</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">B.S. in Electrical Engineering (EE)</h3>
+                        <ul class="experience-bullets">
+                            <li>Minor in Mathematics.</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Aug. 2014</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Master in ECE</strong> <br> <em>Under Dr. Wen-mei Hwu's
-                            supervision.</em></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">University of Illinois at Urbana-Champaign (UIUC), IL </p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Jun. 2007</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>BS in Electrical Engineering (EE), with a Minor degree in
-                            Mathematics</strong></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">National Taiwan University (NTU), Taipei, Taiwan </p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">Aug. 2006-May 2007</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Visiting student in ECE</strong></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">UIUC</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">Aug. 2006–May 2007</p>
+                        <p class="experience-org">UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Visiting Student in ECE</h3>
+                    </div>
                 </div>
             </div>
-            <hr class="full">
         </div>
     </section>
 
@@ -335,91 +301,71 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">2012-2013</p>
+            <div class="experience-timeline">
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">2012–2013</p>
+                        <p class="experience-org">ECE, UIUC</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Dan Vivoli Endowed Fellowship</h3>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Dan Vivoli Endowed Fellowship</strong></p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">2009–2011</p>
+                        <p class="experience-org">NSF, USA</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Integrative Graduate Education and Research Traineeship (IGERT): Neuroengineering</h3>
+                    </div>
                 </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">ECE, UIUC</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">2006–2007</p>
+                        <p class="experience-org">Taiwan</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Taiwan Merit Scholarship</h3>
+                    </div>
                 </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">2009-2011</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">2005</p>
+                        <p class="experience-org">National Science Council, Taiwan</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Undergraduate Student Research Fellowship</h3>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Integrative Graduate Education and Research Traineeship (IGERT):
-                            Neuroengineering</strong></p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">2005</p>
+                        <p class="experience-org">Pan Wen-Yuan Foundation, Taiwan</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Pan Wen-Yuan Scholarship</h3>
+                    </div>
                 </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">NSF, USA</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">2002-2007, 3 times</p>
+                        <p class="experience-org">NTU, Taiwan</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Presidential Awards</h3>
+                    </div>
                 </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey"> 2006-2007</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Taiwan Merit Scholarship</strong></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">Taiwan</p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">2005</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Undergraduate Student Research Fellowship</strong></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">National Science Council, Taiwan</p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">2005</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Pan Wen-Yuan Scholarship</strong></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">Pan Wen-Yuan Foundation, Taiwan</p>
-                </div>
-            </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">3 times</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Presidential Awards</strong></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey">NTU, Taiwan</p>
+                <div class="experience-entry">
+                    <div class="experience-meta">
+                        <p class="text-grey">2001</p>
+                        <p class="experience-org">APMO</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-role">Gold Medal in Asian Pacific Mathematics Olympiad</h3>
+                    </div>
                 </div>
             </div>
-            <hr class="full">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1 col-md-12">
-                    <p class="text-grey">2001</p>
-                </div>
-                <div class="col-lg-5 col-md-12">
-                    <p class="text-muted"><strong>Gold medal in Asian Pacific Mathematics Olympiad (APMO)</strong></p>
-                </div>
-                <div class="col-lg-4  col-md-12">
-                    <p class="text-grey"></p>
-                </div>
-            </div>
-            <hr class="full">
         </div>
     </section>
 
